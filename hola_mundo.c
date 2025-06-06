@@ -3,6 +3,7 @@
 
 int main() {
 	printf("Hola Mundo\n");
+	printf("Octavio estuvo aquí\n")
 }
 
 int factorial(int n) {
