@@ -11,7 +11,7 @@ jobs:
             - name: Clonar repositorio
               uses: actions/checkout@v4
             - name: Compilar código
-              run: gcc hola_mundo.c -o hola_mundo -03
+              run: gcc hola_mundo.c -o hola_mundo -O3
             - name: Subir el ejecutable
               uses: svenstaro/upload-release-action@v2
               with:
