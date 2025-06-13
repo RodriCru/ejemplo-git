@@ -3,8 +3,6 @@
 
 int main() {
 	printf("Hola Mundo\n");
-	int *a = NULL;
-	*a = 100;
 }
 
 int factorial(int n) {
